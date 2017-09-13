@@ -1,5 +1,8 @@
 const functions = require('firebase-functions');
 
+exports.helloWorld = functions.https.onRequest((request, response) => {
+	response.json({ "messages": [ { "text": "Hello from Firebase!" } ]
+});
 
 const questions = [
 	"Do you take initiatives?",
