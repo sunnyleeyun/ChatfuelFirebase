@@ -1,0 +1,739 @@
+{
+  "answerCodes": {
+    "en": {
+      "I disagree": -3,
+      "I don't know": 0,
+      "I agree": 3
+    },
+    "fr": {
+      "Je désapprouve": -3,
+      "Je ne sais pas": 0,
+      "J'approuve": 3
+    }
+  },
+  "dimensions": {
+    "casualness": {
+      "label": {
+        "en": "Casualness",
+        "fr": "Décontraction"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Cautious",
+            "fr": "Précautionneux"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Impulsive",
+            "fr": "Impulsif"
+          }
+        }
+      }
+    },
+    "toughness": {
+      "label": {
+        "en": "Toughness",
+        "fr": "Fermeté"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Soft",
+            "fr": "Doux"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Tough",
+            "fr": "Ferme"
+          }
+        }
+      }
+    },
+    "independence": {
+      "label": {
+        "en": "Independence",
+        "fr": "Indépendance"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Sociable",
+            "fr": "Sociable"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Detached",
+            "fr": "Détaché"
+          }
+        }
+      }
+    },
+    "controlling": {
+      "label": {
+        "en": "Controlling",
+        "fr": "Contrôle"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Unassuming",
+            "fr": "Irresponsable"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Authoritative",
+            "fr": "Autoritaire"
+          }
+        }
+      }
+    },
+    "energy": {
+      "label": {
+        "en": "Energy",
+        "fr": "Énergie"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Passive",
+            "fr": "Passif"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Active",
+            "fr": "Actif"
+          }
+        }
+      }
+    },
+    "creativity": {
+      "label": {
+        "en": "Creativity",
+        "fr": "Créativité"
+      },
+      "scale": {
+        "low": {
+          "label": {
+            "en": "Conservative",
+            "fr": "Conservateur"
+          }
+        },
+        "high": {
+          "label": {
+            "en": "Innovative",
+            "fr": "Innovant"
+          }
+        }
+      }
+    }
+  },
+  "questions":
+  {
+    "0": {
+      "label": {
+        "en": "Takes initiatives.",
+        "fr": "Prend des initiatives."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [2, 3]
+      }
+    },
+    "1": {
+      "label": {
+        "en": "Takes care of people.",
+        "fr": "Se préoccupe des personnes."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [-3, -1]
+      }
+    },
+    "2": {
+      "label": {
+        "en": "Enjoys to be alone.",
+        "fr": "Apprécie la solitude."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [1, 3]
+      }
+    },
+    "3": {
+      "label": {
+        "en": "Listens more than talks.",
+        "fr": "Écoute plus que ne parle."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [-3, -1]
+      }
+    },
+    "4": {
+      "label": {
+        "en": "Feels rarely tired.",
+        "fr": "Se sent rarement fatigué."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [1, 3]
+      }
+    },
+    "5": {
+      "label": {
+        "en": "Has original opinions.",
+        "fr": "A des opinions originales."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [1, 3]
+      }
+    },
+    "6": {
+      "label": {
+        "en": "Concerned about the changes.",
+        "fr": "Préoccupé par les changements."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [-3, -1]
+      }
+    },
+    "7": {
+      "label": {
+        "en": "Does not feel emotional.",
+        "fr": "Ne ressent pas d'émotion."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [2, 3]
+      }
+    },
+    "8": {
+      "label": {
+        "en": "Looks for people to join.",
+        "fr": "Cherche des personnes avec qui se joindre."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [-3, 1]
+      }
+    },
+    "9": {
+      "label": {
+        "en": "Likes to be in charge of something.",
+        "fr": "Aime être en charge de quelque chose."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [2, 3]
+      }
+    },
+    "10": {
+      "label": {
+        "en": "Sometimes feels diminished.",
+        "fr": "Se sent parfois diminuer."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [-3, -2]
+      }
+    },
+    "11": {
+      "label": {
+        "en": "Does not trust his imagination.",
+        "fr": "Ne fait pas confiance à son imagination."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [-3, -1]
+      }
+    },
+    "12": {
+      "label": {
+        "en": "Easily distracted.",
+        "fr": "Facilement distrait."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [1, 3]
+      }
+    },
+    "13": {
+      "label": {
+        "en": "Overwhelmed by the negative remarks.",
+        "fr": "Bouleversé par les remarques négatives."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [-3, -1]
+      }
+    },
+    "14": {
+      "label": {
+        "en": "Bored during social events.",
+        "fr": "S'ennuie pendant les évènements sociaux."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [-1, 3]
+      }
+    },
+    "15": {
+      "label": {
+        "en": "Does not argue.",
+        "fr": "Ne se dispute pas."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [-3, -2]
+      }
+    },
+    "16": {
+      "label": {
+        "en": "Has more energy than most.",
+        "fr": "A plus d'énergie que la plupart."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [1, 3]
+      }
+    },
+    "17": {
+      "label": {
+        "en": "Shares his ideas.",
+        "fr": "Fait partager ses idées."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [2, 3]
+      }
+    },
+    "18": {
+      "label": {
+        "en": "Cautious.",
+        "fr": "Précautionneux."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [-3, 1]
+      }
+    },
+    "19": {
+      "label": {
+        "en": "Takes tough decisions.",
+        "fr": "Prend des décisions difficiles."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [1, 3]
+      }
+    },
+    "20": {
+      "label": {
+        "en": "Integrated by other people.",
+        "fr": "Intégré par les autres personnes."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [-3, 1]
+      }
+    },
+    "21": {
+      "label": {
+        "en": "Often takes command.",
+        "fr": "Prend souvent le commandement."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [2, 3]
+      }
+    },
+    "22": {
+      "label": {
+        "en": "Sometimes needs to rest.",
+        "fr": "A parfois besoin de se reposer."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [-3, -2]
+      }
+    },
+    "23": {
+      "label": {
+        "en": "Has traditional opinions.",
+        "fr": "A des opinions traditionnelles."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [-3, -1]
+      }
+    },
+    "24": {
+      "label": {
+        "en": "Bored by routine.",
+        "fr": "Ennuyé par la routine."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [1, 3]
+      }
+    },
+    "25": {
+      "label": {
+        "en": "Sensitive to criticism.",
+        "fr": "Sensible aux critiques."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [-3, -2]
+      }
+    },
+    "26": {
+      "label": {
+        "en": "Socialize only if necessary.",
+        "fr": "Socialise uniquement si c'est nécessaire."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [-1, 3]
+      }
+    },
+    "27": {
+      "label": {
+        "en": "Accepts the decisions of other people.",
+        "fr": "Accepte les décisions d'autres personnes."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [-3, -2]
+      }
+    },
+    "28": {
+      "label": {
+        "en": "Very active.",
+        "fr": "Très actif."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [2, 3]
+      }
+    },
+    "29": {
+      "label": {
+        "en": "Has invented something.",
+        "fr": "A inventé quelque chose."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [1, 3]
+      }
+    },
+    "30": {
+      "label": {
+        "en": "Does not like uncertainty.",
+        "fr": "N'aime pas l'incertitude."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [-3, -1]
+      }
+    },
+    "31": {
+      "label": {
+        "en": "Is limited to facts.",
+        "fr": "Se limite aux faits."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [2, 3]
+      }
+    },
+    "32": {
+      "label": {
+        "en": "Integrates other people.",
+        "fr": "Intègre d'autres personnes."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [-3, 1]
+      }
+    },
+    "33": {
+      "label": {
+        "en": "Influences people.",
+        "fr": "Influence les gens."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [2, 3]
+      }
+    },
+    "34": {
+      "label": {
+        "en": "Can not always cope.",
+        "fr": "Ne peut pas toujours faire face."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [-3, -2]
+      }
+    },
+    "35": {
+      "label": {
+        "en": "Is wary of new ideas.",
+        "fr": "Se méfie des nouvelles idées."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [-3, -2]
+      }
+    },
+    "36": {
+      "label": {
+        "en": "Likes taking risks.",
+        "fr": "Aime prendre des risques."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [2, 3]
+      }
+    },
+    "37": {
+      "label": {
+        "en": "Is rather 'sweet-heart'.",
+        "fr": "Plutôt 'coeur-tendre'."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [-3, -2]
+      }
+    },
+    "38": {
+      "label": {
+        "en": "Loves his own company.",
+        "fr": "Aime sa propre compagnie."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [2, 3]
+      }
+    },
+    "39": {
+      "label": {
+        "en": "Lets others take the initiative.",
+        "fr": "Laisse les autres prendre les initiatives."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [-3, -2]
+      }
+    },
+    "40": {
+      "label": {
+        "en": "Always busy.",
+        "fr": "Toujours occupé."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [2, 3]
+      }
+    },
+    "41": {
+      "label": {
+        "en": "Improves the way things are done.",
+        "fr": "Améliore la façon dont les choses sont faites."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [2, 3]
+      }
+    },
+    "42": {
+      "label": {
+        "en": "Finishes things cleanly.",
+        "fr": "Finit les choses proprement."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [-3, -2]
+      }
+    },
+    "43": {
+      "label": {
+        "en": "Has a strong will.",
+        "fr": "A une forte volonté."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [2, 3]
+      }
+    },
+    "44": {
+      "label": {
+        "en": "Is most often accompanied by someone.",
+        "fr": "Est le plus souvent accompagné de quelqu'un."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [-3, -2]
+      }
+    },
+    "45": {
+      "label": {
+        "en": "Likes his orders to be followed.",
+        "fr": "Aime que ses ordres soient suivies."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [2, 3]
+      }
+    },
+    "46": {
+      "label": {
+        "en": "Lacks of determination.",
+        "fr": "Manque de détermination."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [-3, -2]
+      }
+    },
+    "47": {
+      "label": {
+        "en": "Has a classic mind.",
+        "fr": "A un esprit classique."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [-3, -1]
+      }
+    },
+    "48": {
+      "label": {
+        "en": "Can adapt to change.",
+        "fr": "Peut s'adapter au changement."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [-1, 3]
+      }
+    },
+    "49": {
+      "label": {
+        "en": "Avoids arguing with people.",
+        "fr": "Évite de se disputer avec les gens."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [-3, -1]
+      }
+    },
+    "50": {
+      "label": {
+        "en": "Works better alone.",
+        "fr": "Travaille mieux seul."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [-1, 3]
+      }
+    },
+    "51": {
+      "label": {
+        "en": "Tends to hold back.",
+        "fr": "A tendance à se retenir."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [-3, -2]
+      }
+    },
+    "52": {
+      "label": {
+        "en": "Works during his leisure hours.",
+        "fr": "Travaille pendant ses heures de loisirs."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [2, 3]
+      }
+    },
+    "53": {
+      "label": {
+        "en": "Has flashes of inspiration.",
+        "fr": "A des éclairs d'inspiration."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [2, 3]
+      }
+    },
+    "54": {
+      "label": {
+        "en": "Loves things to stay the same.",
+        "fr": "Aime que les choses restent les mêmes."
+      },
+      "matches": {
+        "dimension": "casualness",
+        "range": [-3, -2]
+      }
+    },
+    "55": {
+      "label": {
+        "en": "Demonstrates firmness with people.",
+        "fr": "Fait preuve de fermeté avec les gens."
+      },
+      "matches": {
+        "dimension": "toughness",
+        "range": [2, 3]
+      }
+    },
+    "56": {
+      "label": {
+        "en": "Try to learn to know people.",
+        "fr": "Essaie d'apprendre à connaitre les gens."
+      },
+      "matches": {
+        "dimension": "independence",
+        "range": [-3, 1]
+      }
+    },
+    "57": {
+      "label": {
+        "en": "Takes control.",
+        "fr": "Prend le contrôle."
+      },
+      "matches": {
+        "dimension": "controlling",
+        "range": [2, 3]
+      }
+    },
+    "58": {
+      "label": {
+        "en": "Sometimes want to give up.",
+        "fr": "A parfois envi d'abandonner."
+      },
+      "matches": {
+        "dimension": "energy",
+        "range": [-3, -2]
+      }
+    },
+    "59": {
+      "label": {
+        "en": "Has fear of change.",
+        "fr": "A peur du changement."
+      },
+      "matches": {
+        "dimension": "creativity",
+        "range": [-3, -1]
+      }
+    }
+  }
+}
